@@ -7,7 +7,7 @@ import numpy as np
 delay_time = 0.1
 printGay = False
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 # cv2.namedWindow("test")
 img_counter = 0
 last_frame = np.zeros(shape=(480, 640, 3))
